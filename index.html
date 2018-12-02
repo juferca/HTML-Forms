@@ -11,17 +11,30 @@
 
       <h1>Sign Up</h1>
 
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="user_name"><br>
+      <fieldset>
 
-      <label for="mail">Email:</label>
-      <input type="email" id="mail" name="user_email"><br>
+        <!-- <span class="number">1</span> styles page from CSS not used here-->
+        <legend><span class="number">1</span> Your basic info</legend>
 
-      <label for="password">Password</label>
-      <input type="password" id="password" name="user_password"><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name"><br>
 
-      <label for="bio">Biography</label>
-      <textarea id="bio" name="user_bio"></textarea><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email"><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="user_password"><br>
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend><span class="number">2</span> Your profile</legend>
+
+        <label for="bio">Biography</label>
+        <textarea id="bio" name="user_bio"></textarea><br>
+
+      </fieldset>
 
       <button type="submit">Sign Up</button>
 
